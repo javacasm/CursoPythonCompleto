@@ -1,2 +1,2 @@
 # CursoPythonCompleto
-Repositorio para el curso de python completo con Darwin Eventur
+Material para el Curso de Python Completo con Darwin Eventur

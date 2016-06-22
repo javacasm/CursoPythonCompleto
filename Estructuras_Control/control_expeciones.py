@@ -8,8 +8,7 @@ try:
     resultado = dividendo/divisor
 
 except ZeroDivisionError:
-    if divisor == 0:
-        print "No puedes dividir por cero, animal"
+    print "No puedes dividir por cero, animal"
 
 except TypeError:
     print "Hay que ser bruto: eso no es un número"

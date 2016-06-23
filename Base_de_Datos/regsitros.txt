@@ -1,0 +1,30 @@
+mysql> create database Tienda;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use Tienda;
+Database changed
+mysql> select database();
++------------+
+| database() |
++------------+
+| Tienda     |
++------------+
+1 row in set (0.00 sec)
+
+mysql> GRANT ALL ON Tienda.* TO 'oso'@'localhost' IDENTIFIED BY 'panda';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> CREATE TABLE articulos(articulo VARCHAR(100), descripcion BLOB, precio DECIMAL(6, 2), stock BOOL);
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select * from articulos;
+Empty set (0.00 sec)
+
+mysql> INSERT INTO articulos(articulo, precio, stock) VALUES('”pelota”, 19.95, TRUE);
+    '> 
+    '> INSERT INTO articulos(articulo, precio, stock) VALUES('”pelota”, 19.95, TRUE);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '”pelota”, 19.95, TRUE)' at line 1
+mysql> INSERT INTO articulos(articulo, precio, stock) VALUES('”pelota”, 19.95, TRUE);
+
+INSERT INTO articulos(articulo, precio, stock) VALUES('”pelota”, 19.95, TRUE);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '”pelota”, 19.95, TRUE)' at line 1

@@ -1,0 +1,11 @@
+Python Standard Library: https://docs.python.org/3/library/
+
+Funciones predefinidas: https://docs.python.org/3/library/functions.html
+
+Python Package Index: https://pypi.python.org/pypi
+
+Presentación (de recordatorio): http://www.psicobyte.com/descargas/taller_python.pdf
+
+Para comprar (o reseñar) un libro cualquiera sobre Python: https://www.amazon.es/Phyton-HINOJOSA-GUTIERREZ-ANGEL-PABLO/dp/8499646115/
+
+

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  ptra_app56.py
+#  otra_app56.py
 #  
 
 

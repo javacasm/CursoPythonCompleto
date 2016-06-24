@@ -16,10 +16,10 @@ class Application(Frame):
         self.label.pack()
         self.button.pack()
     def foo(self):
-        print "Hola, comando!"
+        print "Hola, comando pythonero!"
  
 if __name__ == '__main__':
     root = Tk()
-    root.title('Hola, mundo y ole')
+    root.title('Hola mundo y ole')
     app = Application(root)
     root.mainloop()

@@ -9,11 +9,10 @@ from Tkinter import Tk, Label, Button, StringVar
 
 class MyFirstGUI:
     LABEL_TEXT = [
-        "Esta es la primera interfaz gráfica de usuario! ",
-         "En realidad, esta es la segunda interfaz gráfica de usuario.",
+         "Esta es la segunda interfaz gráfica de usuario.",
          "Hemos hecho que sea más interesante ...",
          "... Al hacer esta etiqueta interactiva.",
-         "Adelante, haga clic en él de nuevo.",
+         "Adelante, haz clic en él de nuevo.",
     ]
     def __init__(self, master):
         self.master = master

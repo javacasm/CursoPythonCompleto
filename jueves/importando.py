@@ -1,11 +1,15 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#
+#  importando.py
+#
 
 
+import mas_metodos            
 
+print "esto es un programa que importa"
 
+mas_metodos.adios()
 
-
-for elemento in "En un lugar de la mancha, tirando para arriba pero no muy lejos.".split(" "):
-    print elemento
+print mas_metodos.mi_cadena
 

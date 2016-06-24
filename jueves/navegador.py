@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 """
 navegador.py programa que abre una URL en el navegador por defecto
 """

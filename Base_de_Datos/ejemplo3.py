@@ -29,7 +29,8 @@ registros= micursor.fetchall()
 for registro in registros:
 
 # ... imprimimos el registro...
- print registro["precio"] + " sirve para " + registro["articulo"]
+ 
+ print registro["articulo"] + " sirve para " + str(registro["descripcion"])
 
 # Esto que sigue es para borrar el contenido de la base de datos,
 # y que no se nos acumule al ir haciendo pruebas

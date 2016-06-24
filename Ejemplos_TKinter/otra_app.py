@@ -6,11 +6,16 @@
 
 
 from Tkinter import *
+
+def mi_funcion():
+	print esto
  
 app = Tk()
 app.title("Aplicacion grafica en python")
 etiqueta = Label(app, text="Hola mundo!!!")
 boton = Button(app, text="OK!!")
+
+mi funcion = "eje"
  
 etiqueta.pack()
 boton.pack()

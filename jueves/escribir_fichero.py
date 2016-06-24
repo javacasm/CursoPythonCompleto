@@ -1,5 +1,5 @@
-
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 
 fichero = open("otro_archivo.txt", "w")

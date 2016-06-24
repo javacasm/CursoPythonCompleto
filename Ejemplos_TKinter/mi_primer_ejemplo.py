@@ -22,7 +22,7 @@ app.title("Otra app gráfica en Python")
 
 #Ventana principal
 vp = Frame(app)
-vp.grid(column=0, row=0, padx=(50,50), pady=(10,10))
+vp.grid(column=0, row=0, padx=(80,80), pady=(40,40))
 vp.columnconfigure(0, weight=1)
 vp.rowconfigure(0, weight=1)
 
